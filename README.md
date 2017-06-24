@@ -46,6 +46,12 @@ To initiate in terminal
 
         make sure ip && name match ip && name in Vagrantfile
 
+5b. ansible/inventory.ini 
+
+     change:
+
+        add { devlopment node vb.name = {value} }
+
 6. vagrant up   
 
     once complete vagrant status to make sure everything is ok
