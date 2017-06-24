@@ -1,0 +1,13 @@
+---
+- name: Install WordPress Development Environment
+  hosts: development
+  remote_user: "{{remote_user}}"
+  gather_facts: no 
+  become: yes
+
+  roles:
+    - common
+    - apache
+    - php
+    - mysql
+    - wp-cli
