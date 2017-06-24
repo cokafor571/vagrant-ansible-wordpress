@@ -92,7 +92,7 @@ To initiate in terminal
 
      ssh vagrant@{ devlopment node vb.name = {value} }
 
-     nano fpm.sh and copy contents( from fpm.sh file into terminal fpm.sh )
+     sudo nano fpm.sh and copy contents( from fpm.sh file into terminal fpm.sh )
 
      sudo ./fpm.sh
 
