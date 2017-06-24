@@ -19,12 +19,12 @@ To initiate in terminal
 
 2. wget https://wordpress.org/latest.tar.gz (if wp is not present and/or you want newest version)
 
+3. unzip wordpress using: tar -xzvf latest.tar.gz 
+
     copy starterpack folder (_S theme with most basic styles) into wp-content/themes
 
-    copy gulp-dev into wp-content/themes
-        aside: gulp is run to process sass / js(if needed) and eventually optimize WP for production 
-
-3. unzip wordpress using: tar -xzvf latest.tar.gz 
+        copy gulp-dev into wp-content/themes
+            aside: gulp is run to process sass / js(if needed) and eventually optimize WP for production
 
 4. Vangrantfile:
 
