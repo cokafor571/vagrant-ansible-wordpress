@@ -104,11 +104,12 @@ To initiate in terminal
 
 11. Begin Devlopment in Browser 
 
-     a. cd into gulp-dev and run gulp 
-     
-     and or
-     
-     b. on main OS edit /etc/hosts file ( system32/drivers/etc/hosts in Windows ) and write ip and development node name
-        type name into browser to start development
+     on main OS edit /etc/hosts file ( system32/drivers/etc/hosts in Windows ) and write ip and development node name type name into browser to start development
 
-Finish 
+12. **If using _S Starterpack theme 
+
+     a. open gulp-dev and change gulp.task( 'watch' ).browsersync - proxy to address specified in /etc/hosts
+
+     b. cd into gulp-dev and run gulp
+
+Happy Coding
