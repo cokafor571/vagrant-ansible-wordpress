@@ -11,3 +11,4 @@
     - php-imagick
     - php7.1-mysql
     - php7.1-xmlrpc
+    - php7.1-xml
